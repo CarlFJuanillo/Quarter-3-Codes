@@ -10,6 +10,8 @@ steps = np.array([
 ])
 
 print("Step Count Table")
+
 print("Name | Mon | Tue | Wed | Thu | Fri")
 for i in range(len(names)):
     print(names[i],":", steps[i])  
+
